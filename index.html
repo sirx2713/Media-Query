@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Query</title>
+    <style>
+        body{
+            background-color: #7469B6;
+            color: white;
+            text-align: center;
+            font-size: 100px;
+        }
+        @media (min-width: 319px) and (max-width: 480px){
+            body{
+                background-color: #AD88C6;
+            }
+        }
+        @media (min-width: 481px) and (max-width: 1200px){
+            body{
+                background-color: #E1AFD1;
+            }
+        }
+        @media (min-width: 1201px) and (max-width: 1600px){
+            body{
+                background-color: #FFE6E6;
+                color: #7469B6;
+            }
+        }
+        @media(min-width: 1601px){
+            body{
+                background-color: #F8D082;
+                color: #640D6B;
+            }
+        }
+    </style>
+</head>
+<body>
+<h1 style="font-family: 'SF Pro Display', serif">Media Query</h1>
+</body>
+</html>
